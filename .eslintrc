@@ -1,0 +1,88 @@
+{
+	"root": true,
+	"extends": [
+		"airbnb-base"
+	],
+	"env": {
+        "node": true,
+        "browser": true,
+        "es6": true,
+        "jest": true,
+        "jest/globals": true
+	},
+	"parser": "babel-eslint",
+	"parserOptions": {
+        "ecmaVersion": 8,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true
+        }
+	},
+	"plugins": ["jest"],
+	"rules": {
+		"indent": [
+			2,
+			4
+		],
+		"no-console": 0,
+		"comma-dangle": 0,
+		"max-statements": 2,
+		"max-len": 2,
+		"max-params": 2,
+		"max-depth": 2,
+		"complexity": [
+			2,
+			5
+		],
+		"one-var": [
+			2,
+			"never"
+		],
+		"no-useless-rename": 2,
+		"arrow-body-style": [
+			2,
+			"as-needed"
+		],
+		"valid-jsdoc": [
+			2,
+			{
+				"prefer": {
+					"arg": "param",
+					"argument": "param",
+					"class": "constructor",
+					"return": "returns",
+					"virtual": "abstract"
+				},
+				"preferType": {
+					"Object": "object",
+					"Number": "number",
+					"String": "string",
+					"Boolean": "boolean"
+				}
+			}
+		],
+		"require-jsdoc": [
+			2,
+			{
+				"require": {
+					"FunctionDeclaration": true,
+					"MethodDefinition": true,
+					"ClassDeclaration": true,
+					"ArrowFunctionExpression": true
+				}
+			}
+		],
+		"prefer-destructuring": [
+			2,
+			{
+				"array": true,
+				"object": true
+			},
+			{
+				"enforceForRenamedProperties": true
+			}
+		],
+		"import/no-dynamic-require": 0,
+		"global-require": 0
+	}
+}

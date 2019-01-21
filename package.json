@@ -1,0 +1,48 @@
+{
+    "name": "@js-factory/ironhead",
+    "version": "0.0.1",
+    "description": "NodeJS Framework based on functional and declarative programming.",
+    "main": "index.js",
+    "scripts": {
+        "lint": "eslint .",
+        "pretest": "npm run lint",
+        "test": "jest",
+        "test-only": "jest",
+        "test:watch": "jest --watch"
+    },
+    "jest": {
+        "verbose": true,
+        "collectCoverage": true,
+        "collectCoverageFrom": [
+            "*.js",
+            "lib/**/*.js"
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/js-factory/ironhead.git"
+    },
+    "keywords": [
+        "NodeJS",
+        "javascript",
+        "express"
+    ],
+    "author": "js-factory",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/js-factory/ironhead/issues"
+    },
+    "homepage": "https://github.com/js-factory/ironhead#readme",
+    "dependencies": {
+        "express": "^4.16.4",
+        "lodash": "^4.17.11"
+    },
+    "devDependencies": {
+        "babel-eslint": "^8.2.6",
+        "eslint": "^4.10.0",
+        "eslint-config-airbnb-base": "^13.0.0",
+        "eslint-plugin-import": "^2.13.0",
+        "eslint-plugin-jest": "^21.17.0",
+        "jest": "^23.4.0"
+    }
+}
