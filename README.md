@@ -22,13 +22,12 @@ NodeJS Framework over [express](https://github.com/expressjs/express) based on f
 
 ## Contents
 
-1. [Routes](#routes)
+1. [Routes](#router)
 2. [Middleware](#middleware)
-3. [Views](#views)
+3. [Views](#views---templaing-engine)
 4. [Userhooks](#userhooks)
 5. [Configuration](#configuration)
-6. [Error Handling](#error-handling)
-7. [Custom Path Configuration for components](#)
+7. [Custom Path Configuration for components](#custom-path-configuration)
 
 ## Router
 
