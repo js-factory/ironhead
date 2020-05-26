@@ -1,6 +1,6 @@
 {
     "name": "@js-factory/ironhead",
-    "version": "0.1.5",
+    "version": "0.1.6",
     "description": "NodeJS Framework based on functional and declarative programming.",
     "main": "index.js",
     "scripts": {
