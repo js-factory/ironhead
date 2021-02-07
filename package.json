@@ -34,21 +34,21 @@
     },
     "homepage": "https://github.com/js-factory/ironhead#readme",
     "dependencies": {
-        "@js-factory/router": "^0.1.2",
-        "braces": ">=2.3.1",
-        "cookie-parser": "^1.4.3",
-        "cosmiconfig": "^5.0.7",
-        "csurf": "^1.9.0",
-        "express": "^4.16.4",
+        "@js-factory/router": "^0.2.0",
+        "braces": ">=3.0.2",
+        "cookie-parser": "^1.4.5",
+        "cosmiconfig": "^7.0.0",
+        "csurf": "^1.11.0",
+        "express": "^4.17.1",
         "handlebars": "^4.7.6",
-        "js-yaml": ">=3.13.1",
-        "lodash": "^4.17.15"
+        "js-yaml": ">=4.0.0",
+        "lodash": "^4.17.20"
     },
     "devDependencies": {
         "babel-eslint": "^8.2.6",
-        "eslint": "^6.8.0",
-        "eslint-config-airbnb-base": "^13.0.0",
-        "eslint-plugin-import": "^2.13.0",
-        "eslint-plugin-jest": "^21.17.0"
+        "eslint": "^7.19.0",
+        "eslint-config-airbnb-base": "^14.2.1",
+        "eslint-plugin-import": "^2.22.1",
+        "eslint-plugin-jest": "^24.1.3"
     }
 }
